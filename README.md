@@ -18,8 +18,8 @@ This project demonstrates a complete end-to-end data engineering pipeline built 
 
 The project followed a standard data engineering workflow:
 
-1.  **Data Ingestion:** Raw data was ingested from a web source as a `.zip` archive into the Lakehouse `Files` section using a Data Pipeline.
-2.  **Data Preparation:** A PySpark notebook was used to programmatically unzip the raw data. The extracted Parquet files were then processed into clean, partitioned Delta tables for both the primary fact table (`fact_sale`) and all dimension tables.
+1.  **Data Ingestion:** Raw data was ingested from a web source as a .zip archive into the Lakehouse Files section using a Data Pipeline.
+2.  **Data Preparation:** A PySpark notebook was used to programmatically unzip the raw data. The extracted Parquet files were then processed into clean, partitioned Delta tables for both the primary fact table (fact_sale) and all dimension tables.
 3.  **Data Transformation & Aggregation:** To create business-ready summaries, two different aggregation strategies were demonstrated:
     * **PySpark DataFrame API:** To summarize sales by date and city.
     * **Spark SQL:** To summarize sales by date and employee.
