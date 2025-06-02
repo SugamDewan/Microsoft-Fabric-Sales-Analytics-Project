@@ -1,9 +1,8 @@
-# Microsoft-Fabric-Sales-Analytics-Project
 # End-to-End Sales Analytics Project with Microsoft Fabric
 
 ## Introduction
 
-This project demonstrates a complete end-to-end data engineering pipeline built within the Microsoft Fabric ecosystem. The primary objective was to ingest raw sales data from the World Wide Importers sample dataset, process and transform it into a clean star schema data model, and prepare it for interactive business intelligence analysis in Power BI.
+This project demonstrates a complete end-to-end data engineering pipeline built within the Microsoft Fabric ecosystem. The primary objective was to ingest raw sales data from the World Wide Importers sample dataset, process and transform it into a clean star schema data model, and prepare it for interactive business intelligence analysis.
 
 ## Technologies Used
 
@@ -31,7 +30,7 @@ The project followed a standard data engineering workflow:
 * This project provided hands-on experience with the full Microsoft Fabric suite, from ingestion to modeling.
 * A key insight was understanding the practical differences between using the PySpark DataFrame API and Spark SQL for transformations. I found SQL to be more readable for complex joins, while PySpark offered more flexibility.
 * I learned the importance of proper data modeling (creating a star schema) to enable powerful and accurate BI reporting.
-* I also gained experience in programmatic data preparation, such as writing a script to unzip files directly within the cloud environment.
+* I also gained experience in programmatic data preparation, such as writing a script to unzip files directly within the cloud environment, which was a necessary step not covered in the original tutorial.
 
 ## Acknowledgements
 
